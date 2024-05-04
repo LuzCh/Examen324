@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    font-family: Courier, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin-left: 3%;
+}
+
+.intro {
+    overflow: hidden;
+    background-image: url('img/fondoverde.png');
+    background-size: 100% 100%; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 520px;
+} 
+
+.info {
+    float: left;
+    width: 50%;
+    padding: 60px 10px 10px 10%; 
+    box-sizing: border-box;
+}
+
+.imgcomp {
+    float: left; 
+    width: 50%; 
+    box-sizing: border-box; 
+}
+
+.imgcomp img {
+    display: block; 
+    margin-left: 30%;
+    margin-right: 0; 
+}
+
+.intro p {
+    text-align: justify; 
+    font-size: 20px;
+}
+
+.intro h2
+{
+    color: #347571;
+}
+
+
+.eleccion
+{
+    overflow: hidden;   
+}
+
+.eleccion h2
+{
+    text-align: center;
+    font-size: 25px;
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+.eleccion p
+{
+    text-align: center;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.some h3
+{
+    text-align: center;
+    font-size: 25px;
+}
+
+.some
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: white;
+    text-align: center;   
+}
+
+.eleccion a
+{
+    margin-left: 22%;
+    color: #347571;
+}
+
+.ahorro {
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+    background-color: #F7FDF3;
+    height: 555px;
+}
+
+.ahorro img
+{
+    width: 200px; 
+    height: auto; 
+    margin-top: 10%;
+    margin-left: 30%; 
+}
+
+.corrientes {
+    float: left; 
+    width: 33.33%; 
+    box-sizing: border-box; 
+    background-color:#ECF8E5;
+    height: 555px;
+}
+
+.corrientes img
+{
+    width: 200px; 
+    height: auto; 
+    margin-top: 10%; 
+    margin-left: 30%; 
+}
+
+.ira {
+    float: left; 
+    width: 33.33%; 
+    box-sizing: border-box; 
+    background-color: #DCF4CE;
+    height: 555px;
+}
+
+.ira img
+{
+    width: 200px; 
+    height: auto;
+    margin-top: 10%; 
+    margin-left: 30%; 
+}
+
+
+.materialAhorro {
+    float: left;
+    width: 60%;
+    padding: 30px 10px 10px 10%; 
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.imagenAhorro {
+    float: left; 
+    width: 40%; 
+    box-sizing: border-box; 
+}
+
+.imagenAhorro img {
+    display: block;
+    margin-top: 15%; 
+    margin-left: 20%;
+    margin-right: 0; 
+}
+
+
+.materialCorriente {
+    float: left;
+    width: 60%;
+    padding: 30px 10px 10px 10%; 
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.imagenCorriente {
+    float: left; 
+    width: 40%; 
+    box-sizing: border-box; 
+}
+
+.imagenCorriente img {
+    display: block;
+    margin-top: 15%; 
+    margin-left: 20%;
+    margin-right: 0; 
+}
+
+
+.materialIRA {
+    float: left;
+    width: 60%;
+    padding: 30px 10px 10px 10%; 
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.imagenIRA {
+    float: left; 
+    width: 40%; 
+    box-sizing: border-box; 
+}
+
+.imagenIRA img {
+    display: block;
+    margin-top: 15%; 
+    margin-left: 20%;
+    margin-right: 0; 
+}
+
+
+
+
+header {
+    background-color: #d5e2cd;
+    color: #000000;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+main {
+    background-color: #fff;
+}
+
+
+
+footer {
+    background-color: #d5e2cd;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; 
+    bottom: 0; /* Agregamos esta línea */
+    width: 100%; 
+}
